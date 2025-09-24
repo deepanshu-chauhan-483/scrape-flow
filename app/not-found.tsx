@@ -11,7 +11,7 @@ function NotFoundPage() {
         <p className='text-muted-foreground mb-8 max-w-md'>You’ve discovered the Bermuda Triangle of our website.</p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link href={"/"} className='flex items-center justify-center px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/80 transition-colors'>
-          <ArrowLeft classname="w-4 h-4 mr-2" />Back to Dashboard</Link>
+          <ArrowLeft className="w-4 h-4 mr-2" />Back to Dashboard</Link>
         </div>
       </div>
       

@@ -33,8 +33,8 @@ function DesktopSidebar() {
     ) || routes[0]; // default to home if no match
 
   return (
-    <div className="hidden relative md:block min-w-[280px] max-w-[280px] h-screen overflow-hidden w-full bg-primary/5 dark:bg-secondary/30 dark:text-foreground text-muted-foreground border-r-2 border-separate">
-      <div className="flex items-center justify-center gap-2 border-b-[1px] h-[50px] border-separate p-4">
+    <div className="hidden relative md:block min-w-[280px] max-w-[280px] h-screen overflow-hidden w-full bg-primary/5 dark:bg-secondary/30 dark:text-foreground text-muted-foreground border-r-[1px] border-separate dark:border-gray-800">
+      <div className="flex items-center justify-center gap-2 border-b-[1px] dark:border-primary h-[50px] border-separate p-4">
         <Logo />
       </div>
       <div className="p-2">TODO CREDITS</div>
